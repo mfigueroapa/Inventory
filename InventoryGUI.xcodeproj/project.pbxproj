@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223A5BA8213883AB006F2B2E /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5BA7213883AB006F2B2E /* ProductCell.swift */; };
+		223A5BAA21388583006F2B2E /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5BA921388583006F2B2E /* Product.swift */; };
+		223A5BAC21388DE1006F2B2E /* Warehouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5BAB21388DE1006F2B2E /* Warehouse.swift */; };
+		223A5BB021388EF4006F2B2E /* WarehouseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5BAF21388EF4006F2B2E /* WarehouseCell.swift */; };
+		223A5BD2213D91ED006F2B2E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A5BD1213D91ED006F2B2E /* GradientView.swift */; };
 		2297531921385EFC00994089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297531821385EFC00994089 /* AppDelegate.swift */; };
-		2297531B21385EFD00994089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297531A21385EFD00994089 /* ViewController.swift */; };
 		2297531E21385EFD00994089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2297531C21385EFD00994089 /* Main.storyboard */; };
 		2297532021385EFE00994089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2297531F21385EFE00994089 /* Assets.xcassets */; };
 		2297532321385EFE00994089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2297532121385EFE00994089 /* LaunchScreen.storyboard */; };
+		2297532B213860A700994089 /* InventoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297532A213860A700994089 /* InventoryViewController.swift */; };
+		2297532D213860BA00994089 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297532C213860BA00994089 /* ProductsViewController.swift */; };
+		2297532F213860C100994089 /* WarehousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297532E213860C100994089 /* WarehousesViewController.swift */; };
+		229753312138666200994089 /* InventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229753302138666200994089 /* InventoryCell.swift */; };
+		22975333213868D300994089 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22975332213868D300994089 /* Inventory.swift */; };
+		2297533521386B0B00994089 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297533421386B0B00994089 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		223A5BA7213883AB006F2B2E /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		223A5BA921388583006F2B2E /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		223A5BAB21388DE1006F2B2E /* Warehouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warehouse.swift; sourceTree = "<group>"; };
+		223A5BAF21388EF4006F2B2E /* WarehouseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarehouseCell.swift; sourceTree = "<group>"; };
+		223A5BD1213D91ED006F2B2E /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		2297531521385EFC00994089 /* InventoryGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2297531821385EFC00994089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2297531A21385EFD00994089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2297531D21385EFD00994089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2297531F21385EFE00994089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2297532221385EFE00994089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2297532421385EFE00994089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2297532A213860A700994089 /* InventoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryViewController.swift; sourceTree = "<group>"; };
+		2297532C213860BA00994089 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		2297532E213860C100994089 /* WarehousesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarehousesViewController.swift; sourceTree = "<group>"; };
+		229753302138666200994089 /* InventoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCell.swift; sourceTree = "<group>"; };
+		22975332213868D300994089 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		2297533421386B0B00994089 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223A5BB12138C3BD006F2B2E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2297532A213860A700994089 /* InventoryViewController.swift */,
+				2297532C213860BA00994089 /* ProductsViewController.swift */,
+				2297532E213860C100994089 /* WarehousesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		223A5BB22138C3E0006F2B2E /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				223A5BD1213D91ED006F2B2E /* GradientView.swift */,
+				229753302138666200994089 /* InventoryCell.swift */,
+				223A5BA7213883AB006F2B2E /* ProductCell.swift */,
+				223A5BAF21388EF4006F2B2E /* WarehouseCell.swift */,
+				22975332213868D300994089 /* Inventory.swift */,
+				223A5BAB21388DE1006F2B2E /* Warehouse.swift */,
+				223A5BA921388583006F2B2E /* Product.swift */,
+			);
+			path = "Custom Classes";
+			sourceTree = "<group>";
+		};
 		2297530C21385EFC00994089 = {
 			isa = PBXGroup;
 			children = (
@@ -55,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				2297531821385EFC00994089 /* AppDelegate.swift */,
-				2297531A21385EFD00994089 /* ViewController.swift */,
+				223A5BB22138C3E0006F2B2E /* Custom Classes */,
+				223A5BB12138C3BD006F2B2E /* Controllers */,
+				2297533421386B0B00994089 /* Model.swift */,
 				2297531C21385EFD00994089 /* Main.storyboard */,
 				2297531F21385EFE00994089 /* Assets.xcassets */,
 				2297532121385EFE00994089 /* LaunchScreen.storyboard */,
@@ -135,8 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2297531B21385EFD00994089 /* ViewController.swift in Sources */,
+				2297532F213860C100994089 /* WarehousesViewController.swift in Sources */,
+				22975333213868D300994089 /* Inventory.swift in Sources */,
+				223A5BD2213D91ED006F2B2E /* GradientView.swift in Sources */,
+				229753312138666200994089 /* InventoryCell.swift in Sources */,
+				223A5BAC21388DE1006F2B2E /* Warehouse.swift in Sources */,
+				223A5BB021388EF4006F2B2E /* WarehouseCell.swift in Sources */,
+				2297532B213860A700994089 /* InventoryViewController.swift in Sources */,
+				2297532D213860BA00994089 /* ProductsViewController.swift in Sources */,
+				223A5BA8213883AB006F2B2E /* ProductCell.swift in Sources */,
+				223A5BAA21388583006F2B2E /* Product.swift in Sources */,
 				2297531921385EFC00994089 /* AppDelegate.swift in Sources */,
+				2297533521386B0B00994089 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
